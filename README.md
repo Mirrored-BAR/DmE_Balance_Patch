@@ -1,5 +1,5 @@
 # DmE Balance Patch for Beyond All Reason
-**Version 0.0.1**
+**Version 0.0.2**
 ```
 (Armada) Metal Extractor
     Health Points: 189 -> 227
