@@ -1,21 +1,24 @@
-DmE Balance Patch for Beyond All Reason
-Version 0.0.1
+# DmE Balance Patch for Beyond All Reason
+**Version 0.0.1**
+```
+Armada Metal Extractor
+    189 HP -> 227 HP
 
-Armada Metal Extractor 
-    +20% HP
-Cortex Metal Extractor 
-    +20% HP
-Legion Metal Extractor 
-    +20% HP
+Cortex Metal Extractor
+    194 HP -> 233 HP
+
+Legion Metal Extractor
+    194 HP -> 233 HP
 
 Armada Advanced Solar Collector
     energy cost
         5000E -> 4500E
     energy production
-        75E/s -> 80E/s 
+        75E/s -> 80E/s
+
 Cortex Advanced Solar Collector
     energy production 
-        75E/s -> 80E/s 
+        75E/s -> 80E/s
 
 Armada Juno
     metal cost 
@@ -40,3 +43,7 @@ Legion Juno
         12000E -> 9750E
     metal per shot
         200M -> 150M
+
+```
+
+
