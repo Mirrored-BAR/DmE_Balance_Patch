@@ -102,6 +102,12 @@
 (Legion) Scout Vehicle
     speed: 160 -> 155
 
+(Armada) Stout
+    speed: 76 -> 72
+
+(Cortex) Brute
+    speed: 73 -> 69
+
 (Armada) Rocket Vehicle
     speed: 55 -> 49.5
 
