@@ -1,9 +1,14 @@
 # DmE Balance Patch for Beyond All Reason
 **Version 0.1.3**
 
-### Economy balance changes
+## Economy
 
+<details>
+    
+<summary> Metal Extractors gain a health boost to allow a bit more time to react against leaks. </summary>
 
+<br />
+    
 ```
 (Armada) Metal Extractor
     Health Points: 189 -> 227
@@ -13,14 +18,40 @@
 
 (Legion) Metal Extractor
     Health Points: 194 -> 233
+```
 
+<br />
+
+</details>
+
+<details>
+
+<summary> Advanced Solar Collectors gain a slight energy per second increase, Armada gets a small energy cost decrease to make the difference between the factions smaller. </summary>
+
+<br />
+
+```
 (Armada) Advanced Solar Collector
     energy cost: 5000E -> 4500E
     energy production: 75E/s -> 80E/s
 
 (Cortex) Advanced Solar Collector
     energy production: 75E/s -> 80E/s
+```
 
+</details>
+
+<br />
+
+## Utility
+
+<details>
+
+<summary> Juno's get a small decrease in metal cost and the metal and energy per second cost for producing missiles is decreased.  </summary>
+
+<br />
+
+```
 (Armada) Juno
     metal cost: 640M -> 590M
     energy per shot: 12000E -> 9750E
@@ -35,7 +66,366 @@
     metal cost: 660M -> 610M
     energy per shot: 12000E -> 9750E
     metal per shot: 200M -> 150M
+```
 
+<br />
+
+</details>
+
+<details>
+
+<summary> Jammer Towers get a metal and energy cost reduction to allow for easier access.  </summary>
+
+<br />
+
+```
+(Armada) Jammer Tower
+    metal cost: 240M -> 200M
+    energy cost: 8500E -> 7000
+
+(Cortex) Jammer Tower
+    metal cost: 115M -> 100M
+    energy cost: 5500E -> 4000E
+```
+
+<br />
+
+</details>
+
+<details>
+
+<summary> Commander cloak cost while moving reduced. </summary>
+
+<br />
+
+```
+(Armada) Commander
+    cloak cost while moving: 1000E/s -> 800E/s
+
+(Cortex) Commander
+    cloak cost while moving: 1000E/s -> 800E/s
+
+(Legion) Commander
+    cloak cost while moving: 1000E/s -> 800E/s
+```
+
+</details>
+
+<br />
+
+## Units
+
+<b>Armada</b> 
+
+<details>
+    
+<summary> Bots </summary>
+
+<br/>
+
+```
+Rocket Bot
+    speed: 50.7 -> 48.7
+
+T2 AA Bot
+    weapon:
+        flak:
+            reload time: 5.5 -> 3
+
+Welder
+    speed: 47 -> 54
+    damage: 22 -> 25
+    energy per shot: 35 -> 15
+
+Sharpshooter
+    speed: 33 -> 36
+
+Sprinter
+    metal cost: 190M -> 175M
+
+Hound
+    weapon:
+        accuracy: 800
+        prediction boost: 0.8
+        velocity: 292 -> 350
+
+Spy Bot
+    buildtime: 17600 -> 13000
+
+T2 Jammer Bot
+    energy upkeep: 80E/s -> 50E/s
+
+Gunslinger
+    metal cost: 650M -> 600M
+    energy cost: 11000E -> 10000E
+
+Decoy Commander
+    metal cost: 770M -> 650M
+    energy cost: 12000E -> 10000E
+    build time: 24000 -> 30000
+```
+
+<br/>
+
+</details>
+
+<details>
+    
+<summary> Vehicles </summary>
+
+<br/>
+
+```
+Scout Vehicle
+    speed: 168 -> 150
+    metal cost: 31M -> 28M
+
+Stout
+    speed: 76 -> 72
+
+Rocket Vehicle
+    speed: 55 -> 49.5
+
+Minelayer
+    speed: 75 -> 80
+
+T2 Jammer Vehicle
+    energy upkeep: 80E/s -> 50E/s
+
+Bull
+    speed: 65 -> 61
+
+Jaguar
+    weapon:
+        Anti Air:
+            reload time: 2.1 -> 3.0
+        lightning:
+            range: 320 -> 310
+            energy per shot: 5 -> 15
+```
+
+<br/>
+
+</details>
+
+<details>
+    
+<summary> Aircraft </summary>
+
+<br/>
+
+```
+T1 Fighter
+    metal cost: 73M -> 68M
+
+T1 Bomber
+    metal cost: 145M -> 120M
+```
+
+</details>
+
+<br/>
+
+<b>Cortex</b> 
+
+<details>
+    
+<summary> Bots </summary>
+
+<br/>
+
+```
+Grunt
+    range: 215 -> 210
+
+Rocket Bot
+    speed: 47.7 -> 45.7
+
+T2 AA Bot
+    weapon:
+        flak:
+            reload time: 4.5 -> 3
+
+Sumo
+    speed: 38 -> 44
+
+Sheldon
+    speed: 50 -> 48
+
+Spy Bot
+    buildtime: 22200 -> 18000
+
+T2 Jammer Bot
+    energy upkeep: 80E/s -> 50E/s
+
+Commando
+    metal cost: 1200M -> 1100M
+
+Termite
+    metal cost: 600M -> 550M
+    energy cost: 9000E -> 8000E
+
+Decoy Commander
+    metal cost: 750M -> 650M
+    energy cost: 13000E -> 10000E
+    build time: 27000 -> 30000
+
+Mammoth
+    metal cost: 2200M -> 1800M
+    energy cost: 35000E -> 30000E
+    build time: 51000 -> 43000
+    health points: 15600 -> 12000
+
+Duck
+    speed: 56 -> 58
+```
+
+<br/>
+
+</details>
+
+<details>
+    
+<summary> Vehicles </summary>
+
+<br/>
+
+```
+Scout Vehicle
+    speed: 153 -> 145
+    metal cost: 26M -> 24M
+
+Brute
+    speed: 73 -> 69
+
+Rocket Vehicle
+    speed: 52 -> 46.50
+
+Pounder
+    range: 315 -> 310
+
+Minelayer
+    speed: 69 -> 74
+
+T2 Jammer Vehicle
+    energy upkeep: 80E/s -> 50E/s
+
+Tiger
+    speed: 71 -> 67
+    health points: 5300 -> 5000
+
+Banisher
+    attack angle: 360 -> 300
+```
+
+<br/>
+
+</details>
+
+<details>
+    
+<summary> Aircraft </summary>
+
+<br/>
+
+```
+T1 Fighter
+    metal cost: 73M -> 68M
+
+T1 Bomber
+    metal cost: 150M -> 125M
+```
+
+</details>
+
+<br/>
+
+<b>Legion</b> 
+
+<details>
+    
+<summary> Bots </summary>
+
+<br/>
+
+```
+Goblin
+    impulse: removed
+
+Satyr (Lobber)
+    range: 400 -> 390
+
+Rocket Bot
+    speed: 43.5 -> 41.5
+
+Decoy Commander
+    metal cost: 750M -> 650M
+    energy cost: 13000E -> 10000E
+    build time: 27000 -> 30000
+```
+
+<br/>
+
+</details>
+
+<details>
+    
+<summary> Vehicles </summary>
+
+<br/>
+
+```
+Scout Vehicle
+    speed: 160 -> 155
+
+Railgun Vehicle (Lance)
+    weapon:
+        ground:
+            reload time: 8 -> 5.5
+            damage: 200 -> 250
+        air: 
+            reload time: 4 -> 6
+            damage: 300 -> 450
+
+Minelayer
+    speed: 69 -> 74
+
+Boat Tank (Triton)
+    weapon:
+        gauss:
+            range: 600 -> 490
+            reload time: 2.5 -> 1.4
+            damage: 250 -> 160
+```
+
+<br/>
+
+</details>
+
+<details>
+    
+<summary> Aircraft </summary>
+
+<br/>
+
+```
+T1 Fighter
+    metal cost: 40M -> 37M
+```
+
+</details>
+
+<br/>
+
+### T2 Labs
+
+<details>
+
+<summary> All T2 labs get a decrease in metal cost to make the transition to T2 a little easier. </summary>
+
+<br />
+
+```
 (Armada) Advanced Bot Lab
     metal cost: 2900M -> 2500M
 
@@ -62,24 +452,13 @@
 
 (Legion) Advanced Aircraft Plant
     metal cost: 3200M -> 2800M
+```
 
-(Armada) Jammer Tower
-    metal cost: 240M -> 200M
-    energy cost: 8500E -> 7000
+</details>
 
-(Cortex) Jammer Tower
-    metal cost: 115M -> 100M
-    energy cost: 5500E -> 4000E
+<br />
 
-(Armada) Commander
-    cloak cost while moving: 1000E/s -> 800E/s
-
-(Cortex) Commander
-    cloak cost while moving: 1000E/s -> 800E/s
-
-(Legion) Commander
-    cloak cost while moving: 1000E/s -> 800E/s
-
+```
 (Cortex) Grunt
     range: 215 -> 210
 
