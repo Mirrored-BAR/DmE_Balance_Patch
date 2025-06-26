@@ -222,6 +222,41 @@ T1 Bomber
     metal cost: 145M -> 120M
 ```
 
+<br/>
+
+</details>
+
+<details>
+    
+<summary> Ships </summary>
+
+<br/>
+
+```
+Skater
+    weapon:
+        laser:
+            range: 300 -> 315
+
+Dolphin
+    health points: 975 -> 1050
+Destroyer
+    weapon:
+        plasma:
+            range: 700 -> 680
+
+T1 Submarine
+    speed: 66 -> 67
+    metal cost: 440M -> 420M
+    max acceleraton: 0.04592 -> 0.060
+    turn rate: 480 -> 510
+    sight distance: 400 -> 430
+    sonar distance: 400 -> 430
+
+Resurrection Sub
+    buildpower: 150 -> 200
+```
+
 </details>
 
 <br/>
@@ -336,6 +371,26 @@ T1 Bomber
     metal cost: 150M -> 125M
 ```
 
+<br/>
+
+</details>
+
+<details>
+    
+<summary> Ships </summary>
+
+<br/>
+
+```
+Destroyer
+    weapon:
+        plasma:
+            range: 710 -> 690
+
+Resurrection Sub
+    buildpower: 150 -> 200
+```
+
 </details>
 
 <br/>
@@ -417,7 +472,30 @@ T1 Fighter
 
 <br/>
 
-### T2 Labs
+## T1 Labs
+
+<details>
+
+<summary> Aircraft Plants have been made a bit cheaper to promote earlier air development. Legion Aircraft Plant has increased metal cost to slow down the early mosquito transitions. </summary>
+
+<br />
+
+```
+(Armada) Aircraft Plant
+    metal cost: 850M -> 810M
+
+(Cortex) Aircraft Plant
+    metal cost: 830M -> 790M
+
+(Armada) Aircraft Plant
+    metal cost: 650M -> 750M
+```
+
+</details>
+
+<br />
+
+## T2 Labs
 
 <details>
 
@@ -457,50 +535,6 @@ T1 Fighter
 </details>
 
 <br />
-
-```
-(Armada) Aircraft Plant
-    metal cost: 850M -> 810M
-
-(Cortex) Aircraft Plant
-    metal cost: 830M -> 790M
-
-(Armada) Aircraft Plant
-    metal cost: 650M -> 750M
-
-
-(Armada) Skater
-    weapon:
-        laser:
-            range: 300 -> 315
-
-(Armada) Dolphin
-    health points: 975 -> 1050
-
-(Armada) Destroyer
-    weapon:
-        plasma:
-            range: 700 -> 680
-
-(Armada) T1 Submarine
-    speed: 66 -> 67
-    metal cost: 440M -> 420M
-    max acceleraton: 0.04592 -> 0.060
-    turn rate: 480 -> 510
-    sight distance: 400 -> 430
-    sonar distance: 400 -> 430
-
-(Armada) Resurrection Sub
-    buildpower: 150 -> 200
-
-(Cortex) Destroyer
-    weapon:
-        plasma:
-            range: 710 -> 690
-
-(Cortex) Resurrection Sub
-    buildpower: 150 -> 200
-```
 
 # Base64 for tweakunits
 ```
