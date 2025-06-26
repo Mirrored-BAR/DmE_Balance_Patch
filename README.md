@@ -487,7 +487,7 @@ T1 Fighter
 (Cortex) Aircraft Plant
     metal cost: 830M -> 790M
 
-(Armada) Aircraft Plant
+(Legion) Aircraft Plant
     metal cost: 650M -> 750M
 ```
 
