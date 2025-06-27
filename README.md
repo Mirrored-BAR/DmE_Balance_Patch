@@ -1,5 +1,5 @@
 # DmE Balance Patch for Beyond All Reason
-**Version 0.1.3**
+**Version 1.0.1**
 
 ## Economy
 
@@ -113,52 +113,258 @@
 
 <br />
 
-## Units
-
-<b>Armada</b> 
+## T1 Labs
 
 <details>
-    
-<summary> Bots </summary>
+
+<summary> Aircraft Plants have been made a bit cheaper to promote earlier air development. Legion Aircraft Plant has increased metal cost to slow down the early mosquito transitions. </summary>
+
+<br />
+
+```
+(Armada) Aircraft Plant
+    metal cost: 850M -> 810M
+
+(Cortex) Aircraft Plant
+    metal cost: 830M -> 790M
+
+(Legion) Aircraft Plant
+    metal cost: 650M -> 750M
+```
+
+</details>
+
+<br />
+
+## T2 Labs
+
+<details>
+
+<summary> All T2 labs get a decrease in metal cost to make the transition to T2 a little easier. </summary>
+
+<br />
+
+```
+(Armada) Advanced Bot Lab
+    metal cost: 2900M -> 2500M
+
+(Armada) Advanced Vehicle Plant
+    metal cost: 2900M -> 2500M
+
+(Armada) Advanced Aircraft Plant
+    metal cost: 3200M -> 2800M
+
+(Cortex) Advanced Bot Lab
+    metal cost: 2900M -> 2500M
+
+(Cortex) Advanced Vehicle Plant
+    metal cost: 2800M -> 2400M
+
+(Cortex) Advanced Aircraft Plant
+    metal cost: 3200M -> 2800M
+
+(Legion) Advanced Bot Lab
+    metal cost: 2900M -> 2500M
+
+(Legion) Advanced Vehicle Plant
+    metal cost: 2800M -> 2400M
+
+(Legion) Advanced Aircraft Plant
+    metal cost: 3200M -> 2800M
+```
+
+</details>
+
+<br />
+
+## Armada Bots
+
+<details>
+
+<summary> Rocketeer - slightly reduced movespeed </summary>
 
 <br/>
 
 ```
 Rocket Bot
     speed: 50.7 -> 48.7
+```
 
-T2 AA Bot
-    weapon:
-        flak:
-            reload time: 5.5 -> 3
+<br/>
 
-Welder
-    speed: 47 -> 54
-    damage: 22 -> 25
-    energy per shot: 35 -> 15
+</details> 
 
-Sharpshooter
-    speed: 33 -> 36
+<details>
 
-Sprinter
+<summary> Tumbleweed - slightly reduced build time and metal cost </summary>
+
+<br/>
+
+```
+Amphibious Rolling Bomb
+    build time: 7900 -> 7500
+    metal cost: 65M -> 55M
+```
+
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Smuggler - reduced energy upkeep </summary>
+
+<br/>
+
+```
+Radar Jammer Bot
+    energy upkeep: 80E/s -> 50E/s
+```
+
+<br/>
+
+</details> 
+
+
+
+<details>
+
+<summary> Ghost - reduced build time </summary>
+
+<br/>
+
+```
+Radar-Invisible Spy Bot
+    buildtime: 17600 -> 13000
+```
+
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Sprinter - slightly reduced metal cost </summary>
+
+<br/>
+
+```
+Fast Raider Bot
     metal cost: 190M -> 175M
+```
 
-Hound
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Webber - slightly reduced paralyze time and damage </summary>
+
+<br/>
+
+```
+All-Terrain EMP and Reclaiming Spider
+    weapon:
+        paralyze time: 9s -> 8s
+        damage: 850 -> 780
+```
+
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Hound - increased weapon accuracy, prediction boost and velocity. </summary>
+
+<br/>
+
+```
+Mortar/Skirmisher Bot
     weapon:
         accuracy: 800
         prediction boost: 0.8
         velocity: 292 -> 350
+```
 
-Spy Bot
-    buildtime: 17600 -> 13000
+<br/>
 
-T2 Jammer Bot
-    energy upkeep: 80E/s -> 50E/s
+</details> 
 
-Gunslinger
+<details>
+
+<summary> Welder - increased speed, damage and reduced energy per shot </summary>
+
+<br/>
+
+```
+Assault Bot
+    speed: 47 -> 54
+    damage: 22 -> 25
+    energy per shot: 35 -> 15
+```
+
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Archangel - reduced reload time for flak </summary>
+
+<br/>
+
+```
+Advanced Amphibious Anti-Air Bot
+    weapon:
+        flak:
+            reload time: 5.5 -> 3
+```
+
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Gunslinger - reduced metal and energy cost </summary>
+
+<br/>
+
+```
+Skirmish Bot Auto-Repair
     metal cost: 650M -> 600M
     energy cost: 11000E -> 10000E
+```
 
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Sharpshooter - slightly increased speed </summary>
+
+<br/>
+
+```
+Sniper Bot
+    speed: 33 -> 36    
+```
+
+<br/>
+
+</details> 
+
+
+<details>
+
+<summary> Decoy Commander - reduced metal and energy cost and build time </summary>
+
+<br/>
+
+```
 Decoy Commander
     metal cost: 770M -> 650M
     energy cost: 12000E -> 10000E
@@ -167,35 +373,109 @@ Decoy Commander
 
 <br/>
 
-</details>
+</details> 
 
 <details>
-    
-<summary> Vehicles </summary>
+
+<summary> Fatboy - increased energy cost </summary>
 
 <br/>
 
 ```
-Scout Vehicle
+Heavy Plasma Bot
+    energy cost: 11.000E -> 14.000E
+```
+
+</details> 
+
+<br/>
+
+## Armada Vehicles
+
+<details>
+
+<summary> Rover - reduced speed and metal cost </summary>
+
+<br/>
+
+```
+Light Scout Vehicle
     speed: 168 -> 150
     metal cost: 31M -> 28M
+```
 
-Stout
-    speed: 76 -> 72
+<br/>
 
-Rocket Vehicle
-    speed: 55 -> 49.5
+</details> 
 
-Minelayer
+<details>
+
+<summary> Groundhog - increased speed </summary>
+
+<br/>
+
+```
+Stealthy Minelayer / Minesweeper
     speed: 75 -> 80
+```
 
-T2 Jammer Vehicle
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Whistler - reduced speed </summary>
+
+<br/>
+
+```
+Missile Truck
+    speed: 55 -> 49.5
+```
+
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Stout - slightly reduced speed </summary>
+
+<br/>
+
+```
+Medium Assault Tank
+    speed: 76 -> 72
+```
+
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Umbra - reduced energy upkeep </summary>
+
+<br/>
+
+```
+Radar Jammer Vehicle
     energy upkeep: 80E/s -> 50E/s
+```
 
-Bull
-    speed: 65 -> 61
+<br/>
 
-Jaguar
+</details> 
+
+<details>
+
+<summary> Jaguar - reduced reload time for anti air weapon, reduced range and increased energy per shot for lightning weapon </summary>
+
+<br/>
+
+```
+Lightning Tank
     weapon:
         Anti Air:
             reload time: 2.1 -> 3.0
@@ -206,42 +486,114 @@ Jaguar
 
 <br/>
 
-</details>
+</details> 
 
 <details>
-    
-<summary> Aircraft </summary>
+
+<summary> Bull - slightly reduced speed </summary>
 
 <br/>
 
 ```
-T1 Fighter
-    metal cost: 73M -> 68M
+Heavy Assault Tank
+    speed: 65 -> 61
+```
 
-T1 Bomber
+</details> 
+
+<br/>
+
+## Armada Aircraft
+
+<details>
+
+<summary> Falcon - slightly reduced metal cost </summary>
+
+<br/>
+
+```
+Fighter
+    metal cost: 73M -> 68M
+```
+
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Stormbringer - reduced metal cost </summary>
+
+<br/>
+
+```
+Bomber
     metal cost: 145M -> 120M
 ```
 
 <br/>
 
-</details>
+</details> 
+
+<br/>
+
+## Armada Ships
 
 <details>
-    
-<summary> Ships </summary>
+
+<summary> Skater - increased range for laser weapon </summary>
 
 <br/>
 
 ```
-Skater
+Stealthy Patrol Boat
     weapon:
         laser:
             range: 300 -> 315
+```
 
-Dolphin
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Dolphin - increased health </summary>
+
+<br/>
+
+```
+Fast Assault Corvette
     health points: 975 -> 1050
+```
 
-Frigate
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Grim Reaper - increased build power </summary>
+
+<br/>
+
+```
+Resurrection Sub
+    buildpower: 150 -> 200
+```
+
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Ellysaw - increased health, metal cost, energy cost, speed, max acceleration, max deceleration, turn speed. Reduced reload time for weapon. </summary>
+
+<br/>
+
+```
+Assault Frigate
     health points: 2150 -> 2200
     metal cost: 380M -> 400M
     energy cost: 2550E -> 2650E
@@ -251,25 +603,51 @@ Frigate
     turn speed: 375 -> 400
     weapon:
         reload time: 1.2 -> 1.1
+```
 
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Eel - increased health, max acceleration, turn rate, sight distance, sonar distance and attack angle. Reduced metal cost, reload time, range and damage.  </summary>
+
+<br/>
+
+```
+T1 Submarine
+    health points: 840 -> 950
+    metal cost: 440M -> 420M
+    max acceleraton: 0.04592 -> 0.0658
+    turn rate: 480 -> 575
+    sight distance: 400 -> 460
+    sonar distance: 400 -> 460
+    weapon:
+        reload time: 4 -> 2.7
+        range: 500 -> 450
+        damage: 342 -> 260
+        attack angle: 110 -> 130
+```
+
+<br/>
+
+</details> 
+
+<details>
+
+<summary> Corsair - reduced range for plasma weapon </summary>
+
+<br/>
+
+```
 Destroyer
     weapon:
         plasma:
             range: 700 -> 680
-
-T1 Submarine
-    speed: 66 -> 67
-    metal cost: 440M -> 420M
-    max acceleraton: 0.04592 -> 0.060
-    turn rate: 480 -> 510
-    sight distance: 400 -> 430
-    sonar distance: 400 -> 430
-
-Resurrection Sub
-    buildpower: 150 -> 200
 ```
 
-</details>
+</details> 
 
 <br/>
 
@@ -483,70 +861,6 @@ T1 Fighter
 </details>
 
 <br/>
-
-## T1 Labs
-
-<details>
-
-<summary> Aircraft Plants have been made a bit cheaper to promote earlier air development. Legion Aircraft Plant has increased metal cost to slow down the early mosquito transitions. </summary>
-
-<br />
-
-```
-(Armada) Aircraft Plant
-    metal cost: 850M -> 810M
-
-(Cortex) Aircraft Plant
-    metal cost: 830M -> 790M
-
-(Legion) Aircraft Plant
-    metal cost: 650M -> 750M
-```
-
-</details>
-
-<br />
-
-## T2 Labs
-
-<details>
-
-<summary> All T2 labs get a decrease in metal cost to make the transition to T2 a little easier. </summary>
-
-<br />
-
-```
-(Armada) Advanced Bot Lab
-    metal cost: 2900M -> 2500M
-
-(Armada) Advanced Vehicle Plant
-    metal cost: 2900M -> 2500M
-
-(Armada) Advanced Aircraft Plant
-    metal cost: 3200M -> 2800M
-
-(Cortex) Advanced Bot Lab
-    metal cost: 2900M -> 2500M
-
-(Cortex) Advanced Vehicle Plant
-    metal cost: 2800M -> 2400M
-
-(Cortex) Advanced Aircraft Plant
-    metal cost: 3200M -> 2800M
-
-(Legion) Advanced Bot Lab
-    metal cost: 2900M -> 2500M
-
-(Legion) Advanced Vehicle Plant
-    metal cost: 2800M -> 2400M
-
-(Legion) Advanced Aircraft Plant
-    metal cost: 3200M -> 2800M
-```
-
-</details>
-
-<br />
 
 # Base64 for tweakunits
 ```
